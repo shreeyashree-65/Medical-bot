@@ -1,7 +1,7 @@
 # Medical-bot
 An AI medical chatbot using LLMs, LangChain, and Pinecone, with a Flask backend deployed on AWS.
 
-### Techstack Used:
+## Techstack Used:
 
 - Python
 - LangChain
@@ -9,7 +9,7 @@ An AI medical chatbot using LLMs, LangChain, and Pinecone, with a Flask backend 
 - GPT
 - Pinecone
 
-### COMMITS
+## COMMITS
 
 ### 1. Creating conda environment
 ```bash
@@ -43,4 +43,10 @@ python app.py
 ```bash
 open up localhost:
 ```
+##  License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+##  Author
+
+**SHREEYA P S** - [shreeyashree-65](https://github.com/shreeyashree-65)
