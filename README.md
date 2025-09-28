@@ -1,6 +1,14 @@
 # Medical-bot
 An AI medical chatbot using LLMs, LangChain, and Pinecone, with a Flask backend deployed on AWS.
 
+### Techstack Used:
+
+- Python
+- LangChain
+- Flask
+- GPT
+- Pinecone
+
 ### COMMITS
 
 ### 1. Creating conda environment
@@ -21,5 +29,18 @@ pip install -r requirements.txt
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+```bash
+# run the following command to store embeddings to pinecone
+python store_index.py
+```
+
+```bash
+python app.py
+```
+
+```bash
+open up localhost:
 ```
 
